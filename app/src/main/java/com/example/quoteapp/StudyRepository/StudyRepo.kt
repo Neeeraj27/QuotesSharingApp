@@ -1,0 +1,55 @@
+package com.example.quoteapp.StudyRepository
+
+import com.example.quoteapp.GymRepository.GymquotesData
+
+class StudyRepo {
+    fun setStudyData():List<StudyquotesData>{
+        val text=ArrayList<StudyquotesData>()
+        text.add(StudyquotesData("“If you work hard enough and assert yourself, and use your mind and imagination, you can shape the world to your desires.” – Malcolm Gladwell"))
+        text.add(StudyquotesData(" “Success is not final, failure is not fatal: it is the courage to continue that counts.” – Winston Churchill"))
+        text.add(StudyquotesData("“Learning is the only thing the mind never exhausts, never fears, and never regrets.” – Leonardo da Vinci."))
+        text.add(StudyquotesData("“I find that the harder I work, the more luck I seem to have.” – Thomas Jefferson"))
+        text.add(StudyquotesData("“Live as if you were to die tomorrow. Learn as if you were to live forever.” – Mahatma Gandhi"))
+        text.add(StudyquotesData("“Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will spend its whole life believing that it is stupid.” – Albert Einstein"))
+        text.add(StudyquotesData("“What seems to us as bitter trials are often blessings in disguise.” – Oscar Wilde"))
+        text.add(StudyquotesData("“Success isn’t overnight. It’s when every day you get a little better than the day before. It all adds up.” – Dwayne Johnson"))
+        text.add(StudyquotesData("“Success doesn’t come to you, you go to it.” – Marva Collins"))
+        text.add(StudyquotesData("“Many of life’s failures are people who did not realize how close they were to success when they gave up.” – Thomas Edison"))
+        text.add(StudyquotesData(" “Work gives you meaning and purpose and life is empty without it.” – Stephen Hawking"))
+        text.add(StudyquotesData("“You don’t learn to walk by following rules. You learn by doing, and falling over.” – Richard Branson"))
+        text.add(StudyquotesData("“You cannot swim for new horizons until you have the courage to lose sight of the shore.” – William Faulkner"))
+        text.add(StudyquotesData("“If you’re going through hell, keep going.” – Winston Churchill"))
+        text.add(StudyquotesData("“All happiness depends on courage and work.” – Honoré de Balzac"))
+        text.add(StudyquotesData("“There are no traffic jams on the extra mile.” – Zig Ziglar"))
+        text.add(StudyquotesData("“If people only knew how hard I’ve worked to gain my mastery, it wouldn’t seem so wonderful at all.” – Michelangelo"))
+        text.add(StudyquotesData("“There are no secrets to success. It is the result of preparation, hard work, and learning from failure.” – General Colin Powell"))
+        text.add(StudyquotesData("“There is no substitute for hard work.” – Thomas Edison"))
+        text.add(StudyquotesData("“The best way to predict your future is to create it.” – Abraham Lincoln"))
+        text.add(StudyquotesData("“However difficult life may seem, there is always something you can do and succeed at.” – Stephen Hawking"))
+        text.add(StudyquotesData("“There are two kinds of people in this world: those who want to get things done and those who don’t want to make mistakes.” – John Maxwell"))
+        text.add(StudyquotesData("“Efforts and courage are not enough without purpose and direction.” – John F. Kennedy"))
+        text.add(StudyquotesData("“The journey is the reward.” – Chinese Proverb"))
+        text.add(StudyquotesData("“Nobody can go back and start a new beginning, but anyone can start today and make a new ending.” – Maria Robinson"))
+        text.add(StudyquotesData("“The people who are crazy enough to believe they can change the world are the ones who do.” – Steve Jobs"))
+        text.add(StudyquotesData("“No profit grows where is no pleasure ta’en. In brief, sir, study what you most affect.” – William Shakespeare”"))
+        text.add(StudyquotesData("“You may have to fight a battle more than once to win it.” – Margaret Thatcher"))
+        text.add(StudyquotesData("“The successful warrior is the average man, with laser-like focus.” – Bruce Lee"))
+        text.add(StudyquotesData("“Real difficulties can be overcome; it is only the imaginary ones that are unconquerable.” – Theodore N. Vail"))
+        text.add(StudyquotesData("“By perseverance, the snail reached the ark.” – Charles Spurgeon"))
+        text.add(StudyquotesData("“The mind is not a vessel to be filled but a fire to be ignited.” – Plutarch"))
+        text.add(StudyquotesData("“Excellence is not a skill. It is an attitude.” —Ralph Marston"))
+        text.add(StudyquotesData("“Rule no.1 is: Don’t sweat the small stuff. Rule no. 2 is:  It’s all small stuff.” —Robert Eliot"))
+        text.add(StudyquotesData("\n" +
+                "“I think it’s possible for ordinary people to choose to be extraordinary.” — Elon Musk"))
+        text.add(StudyquotesData("“The future belongs to those who believe in the beauty of their dreams.” ― Eleanor Roosevelt\n"))
+        text.add(StudyquotesData("“Doubt kills more dreams than failure ever will.” —Karim Seddiki"))
+        text.add(StudyquotesData("“You are braver than you believe, stronger than you seem and smarter than you think.” — A.A Milne"))
+        text.add(StudyquotesData("“Go confidently in the direction of your dreams. Live the life you have imagined.” —Henry David Thoreau"))
+        text.add(StudyquotesData("“Today a reader. Tomorrow a leader.” – Anonymous"))
+        text.add(StudyquotesData("“I don’t love studying. I hate studying. I like learning. Learning is beautiful.” – Natalie Portman"))
+        text.add(StudyquotesData("Work gives you meaning and purpose and life is empty without it. – Stephen Hawking"))
+        text.add(StudyquotesData("The purpose of our lives is to be happy. – Dalai Lama"))
+        text.add(StudyquotesData("“Education is the most powerful weapon, which you can use to change the world.” —Nelson Mandela"))
+        return text
+    }
+}

@@ -1,0 +1,57 @@
+package com.example.quoteapp.LoveRepository
+
+import com.example.quoteapp.GymRepository.GymquotesData
+
+class LoveRepo {
+    fun setLoveData():List<LovequotesData>{
+        val text=ArrayList<LovequotesData>()
+        text.add(LovequotesData("“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim"))
+        text.add(LovequotesData("“You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss"))
+        text.add(LovequotesData("“Love is that condition in which the happiness of another person is essential to your own.” —Robert A. Heinlein"))
+        text.add(LovequotesData("\"The best thing to hold onto in life is each other.\" –Audrey Hepburn"))
+        text.add(LovequotesData("“I need you like a heart needs a beat.” –Unknown"))
+        text.add(LovequotesData("\"I am who I am because of you. You are every reason, every hope, and every dream I’ve ever had.\" —The Notebook"))
+        text.add(LovequotesData("“If I had a flower for every time I thought of you... I could walk through my garden forever.” —Alfred Tennyson\n" +
+                "\n"))
+        text.add(LovequotesData("\"Take my hand, take my whole life too. For I can’t help falling in love with you.\" —Elvis Presley"))
+        text.add(LovequotesData(" “If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you.” –A. A. Milne"))
+        text.add(LovequotesData("\"You’re the closest to heaven, that I’ll ever be.\" —Goo Goo Dolls"))
+        text.add(LovequotesData("\"I will never stop trying. Because when you find the one... you never give up.\" —Crazy, Stupid, Love"))
+        text.add(LovequotesData(" \"It’s always better when we’re together.\" —Jack Johnson"))
+        text.add(LovequotesData("“I love you for all that you are, all that you have been and all that you will be.” —Unknown"))
+        text.add(LovequotesData(" \"Two are better than one.\" —Ecclesiastes 4:9"))
+        text.add(LovequotesData("“I’ve tried so many times to think of a new way to say it, and it’s still I love you.” —Zelda Fitzgerald"))
+        text.add(LovequotesData("“When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.” —When Harry Met Sally"))
+        text.add(LovequotesData("“I love you and that’s the beginning and end of everything.” —F. Scott Fitzgerald"))
+        text.add(LovequotesData("\"If I know what love is, it is because of you.\" —Hermann Hesse"))
+        text.add(LovequotesData(" “My soul and your soul are forever tangled.” —N.R. Hart"))
+        text.add(LovequotesData("“I love you more than I have ever found a way to say to you.” —Ben Folds"))
+        text.add(LovequotesData(" \"In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.\" —Maya Angelou"))
+        text.add(LovequotesData(" “If you remember me, then I don’t care if everyone else forgets.” —Haruki Murakami"))
+        text.add(LovequotesData("”I love that you are the last person I want to talk to before I go to sleep at night.\" —When Harry Met Sally"))
+        text.add(LovequotesData(" “If you find someone you love in your life, then hang on to that love.” — Princess Diana"))
+        text.add(LovequotesData("“Our love is like the wind. I can’t see it, but I can feel it.” – A Walk to Remembe"))
+        text.add(LovequotesData("“It’s always better when we’re together.” – Jack Johnson"))
+        text.add(LovequotesData(" “I would rather spend one lifetime with you, than face all the ages of this world alone.” – J.K.K. Tolken"))
+        text.add(LovequotesData(" “My love for you has no depth, its boundaries are ever-expanding.” – Christina White"))
+        text.add(LovequotesData(" “When I see your face, there’s not a thing that I would change, ’cause you’re amazing – just the way you are.” – Bruno Mars"))
+        text.add(LovequotesData("“Because of you, I can feel myself slowly, but surely, becoming the me I have always dreamed of being.” – Tyler Knott Gregson"))
+        text.add(LovequotesData(" ”We loved with a love that was more than love.\" — Edgar Allen Poe"))
+        text.add(LovequotesData(" “True love is rare, and it's the only thing that gives life real meaning.”  ―Nicholas Sparks"))
+        text.add(LovequotesData(" “I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” – Angelita Lim"))
+        text.add(LovequotesData("“And in her smile I see something more beautiful than the stars.” — Across the Universe"))
+        text.add(LovequotesData("”It was love at first sight, at last sight, at ever and ever sight.\" ―Vladimir Nabokov"))
+        text.add(LovequotesData("\"In real love you want the other person's good. In romantic love you want the other person.” — Margaret Anderson"))
+        text.add(LovequotesData("“Love does not consist in gazing at each other, but in looking outward together in the same direction.” – Antoine de Saint-Exupery"))
+        text.add(LovequotesData("“You’re always the first and the last thing on this heart of mine. No matter where I go, or what I do, I’m thinking of you.” – Dierks Bentley"))
+        text.add(LovequotesData("”When I saw you I fell in love, and you smiled because you knew.\" ―Arrigo Boito"))
+        text.add(LovequotesData(" “If I had to choose between breathing and loving you I would use my last breath to tell you I love you.” – DeAnna Anderson"))
+        text.add(LovequotesData("“The real lover is the man who can thrill you by kissing your forehead or smiling into your eyes or just staring into space.” – Marilyn Monroe"))
+        text.add(LovequotesData("“Romance is the glamour which turns the dust of everyday life into a golden haze. ” ―Elinor Glyn"))
+        text.add(LovequotesData("“To be your friend was all I ever wanted; to be your lover was all I ever dreamed.” – Valerie Lombard"))
+        text.add(LovequotesData("“Romance is thinking about your significant other, when you are supposed to be thinking about something else.” ― Nicholas Sparks"))
+        text.add(LovequotesData("“For thousands of nights I dreamed of making love to you. No man on earth has ever hated sunrise as I do.” ―Again the Magic"))
+        text.add(LovequotesData("“The very first moment I beheld him, my heart was irrevocably gone.” ―Jane Auste"))
+        return text
+    }
+}
